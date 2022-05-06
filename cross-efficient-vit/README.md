@@ -71,8 +71,8 @@ Then, issue the following commands for evaluating a given model giving the pre-t
 python3 test.py --model_path 'cross_efficient_vit.pth' --config 'configs/architecture.yaml'  
 ```
 
-By default it assumes the availability of a txt file containing the videos relative path for the predictions.
-It is hard coded, please find the file definition at line ..
+**By default it assumes the availability of a txt file containing the videos relative path for the predictions.
+It is hard coded, please find the file definition at line 171**
 
 
 # Reference
