@@ -1,0 +1,111 @@
+model,gender,ethnicity,training_dataset,accuracy,precision_0,precision_1,recall_0,recall_1,f1_0,f1_1,auc-roc
+EfficientNetB4,men,African,DFDC,0.54,0.54,0.54,0.52,0.56,0.53,0.55,0.6
+EfficientNetB4,men,Asian (East),DFDC,0.65,0.7,0.61,0.52,0.78,0.6,0.68,0.76
+EfficientNetB4,men,Asian (South),DFDC,0.59,0.63,0.57,0.44,0.74,0.52,0.64,0.71
+EfficientNetB4,men,Caucasian (American),DFDC,0.58,0.59,0.57,0.54,0.62,0.56,0.6,0.64
+EfficientNetB4,men,Caucasian (European),DFDC,0.66,0.67,0.65,0.64,0.68,0.65,0.67,0.72
+EfficientNetB4,women,African,DFDC,0.63,0.61,0.66,0.72,0.54,0.66,0.59,0.65
+EfficientNetB4,women,Asian (East),DFDC,0.69,0.69,0.69,0.7,0.68,0.69,0.69,0.71
+EfficientNetB4,women,Asian (South),DFDC,0.6,0.57,0.67,0.8,0.4,0.67,0.5,0.65
+EfficientNetB4,women,Caucasian (American),DFDC,0.67,0.65,0.7,0.74,0.6,0.69,0.65,0.71
+EfficientNetB4,women,Caucasian (European),DFDC,0.52,0.51,0.54,0.76,0.28,0.61,0.37,0.64
+EfficientNetB4,men,African,FFPP,0.65,0.59,0.94,0.98,0.32,0.74,0.48,0.83
+EfficientNetB4,men,Asian (East),FFPP,0.7,0.65,0.79,0.86,0.53,0.74,0.63,0.82
+EfficientNetB4,men,Asian (South),FFPP,0.71,0.65,0.86,0.92,0.5,0.76,0.63,0.87
+EfficientNetB4,men,Caucasian (American),FFPP,0.63,0.59,0.76,0.88,0.38,0.7,0.51,0.87
+EfficientNetB4,men,Caucasian (European),FFPP,0.79,0.72,0.91,0.94,0.64,0.82,0.75,0.91
+EfficientNetB4,women,African,FFPP,0.64,0.59,0.82,0.92,0.36,0.72,0.5,0.8
+EfficientNetB4,women,Asian (East),FFPP,0.66,0.6,0.86,0.94,0.38,0.73,0.53,0.81
+EfficientNetB4,women,Asian (South),FFPP,0.74,0.67,0.93,0.96,0.52,0.79,0.67,0.83
+EfficientNetB4,women,Caucasian (American),FFPP,0.68,0.62,0.88,0.94,0.42,0.75,0.57,0.86
+EfficientNetB4,women,Caucasian (European),FFPP,0.63,0.59,0.76,0.88,0.38,0.7,0.51,0.83
+EfficientNetAutoAttnB4,men,African,DFDC,0.62,0.61,0.63,0.66,0.58,0.63,0.6,0.7
+EfficientNetAutoAttnB4,men,Asian (East),DFDC,0.69,0.69,0.68,0.68,0.69,0.69,0.69,0.77
+EfficientNetAutoAttnB4,men,Asian (South),DFDC,0.68,0.7,0.66,0.62,0.74,0.66,0.7,0.77
+EfficientNetAutoAttnB4,men,Caucasian (American),DFDC,0.7,0.69,0.72,0.74,0.66,0.71,0.69,0.75
+EfficientNetAutoAttnB4,men,Caucasian (European),DFDC,0.69,0.68,0.7,0.72,0.66,0.7,0.68,0.78
+EfficientNetAutoAttnB4,women,African,DFDC,0.64,0.62,0.68,0.74,0.54,0.67,0.6,0.71
+EfficientNetAutoAttnB4,women,Asian (East),DFDC,0.66,0.67,0.65,0.64,0.68,0.65,0.67,0.73
+EfficientNetAutoAttnB4,women,Asian (South),DFDC,0.62,0.59,0.68,0.78,0.46,0.67,0.55,0.68
+EfficientNetAutoAttnB4,women,Caucasian (American),DFDC,0.72,0.7,0.75,0.78,0.66,0.74,0.7,0.75
+EfficientNetAutoAttnB4,women,Caucasian (European),DFDC,0.62,0.59,0.67,0.76,0.48,0.67,0.56,0.69
+EfficientNetB4ST,men,African,FFPP,0.64,0.59,0.89,0.96,0.32,0.73,0.47,0.78
+EfficientNetB4ST,men,Asian (East),FFPP,0.7,0.66,0.76,0.82,0.57,0.73,0.65,0.81
+EfficientNetB4ST,men,Asian (South),FFPP,0.71,0.65,0.86,0.92,0.5,0.76,0.63,0.85
+EfficientNetB4ST,men,Caucasian (American),FFPP,0.69,0.63,0.83,0.9,0.48,0.74,0.61,0.87
+EfficientNetB4ST,men,Caucasian (European),FFPP,0.79,0.72,0.91,0.94,0.64,0.82,0.75,0.89
+EfficientNetB4ST,women,African,FFPP,0.66,0.6,0.9,0.96,0.36,0.74,0.51,0.76
+EfficientNetB4ST,women,Asian (East),FFPP,0.68,0.63,0.78,0.86,0.5,0.73,0.61,0.76
+EfficientNetB4ST,women,Asian (South),FFPP,0.69,0.63,0.88,0.94,0.44,0.75,0.59,0.8
+EfficientNetB4ST,women,Caucasian (American),FFPP,0.66,0.61,0.83,0.92,0.4,0.73,0.54,0.85
+EfficientNetB4ST,women,Caucasian (European),FFPP,0.64,0.59,0.79,0.9,0.38,0.71,0.51,0.83
+Xception,men,African,DFDC,0.61,0.58,0.7,0.84,0.38,0.68,0.49,0.69
+Xception,men,Asian (East),DFDC,0.68,0.62,0.81,0.9,0.45,0.74,0.58,0.77
+Xception,men,Asian (South),DFDC,0.66,0.61,0.79,0.88,0.44,0.72,0.56,0.76
+Xception,men,Caucasian (American),DFDC,0.63,0.59,0.72,0.84,0.42,0.69,0.53,0.71
+Xception,men,Caucasian (European),DFDC,0.62,0.58,0.75,0.88,0.36,0.7,0.49,0.73
+Xception,women,African,DFDC,0.58,0.55,0.79,0.94,0.22,0.69,0.34,0.75
+Xception,women,Asian (East),DFDC,0.61,0.57,0.76,0.9,0.32,0.7,0.45,0.71
+Xception,women,Asian (South),DFDC,0.58,0.56,0.62,0.76,0.4,0.64,0.49,0.63
+Xception,women,Caucasian (American),DFDC,0.64,0.59,0.89,0.96,0.32,0.73,0.47,0.74
+Xception,women,Caucasian (European),DFDC,0.56,0.53,0.71,0.92,0.2,0.68,0.31,0.67
+EfficientNetAutoAttnB4ST,men,African,FFPP,0.58,0.54,0.9,0.98,0.18,0.7,0.3,0.84
+EfficientNetAutoAttnB4ST,men,Asian (East),FFPP,0.65,0.6,0.77,0.88,0.41,0.72,0.53,0.83
+EfficientNetAutoAttnB4ST,men,Asian (South),FFPP,0.63,0.57,1.0,1.0,0.26,0.73,0.41,0.87
+EfficientNetAutoAttnB4ST,men,Caucasian (American),FFPP,0.62,0.57,0.88,0.96,0.28,0.72,0.42,0.87
+EfficientNetAutoAttnB4ST,men,Caucasian (European),FFPP,0.68,0.62,0.85,0.92,0.44,0.74,0.58,0.88
+EfficientNetAutoAttnB4ST,women,African,FFPP,0.6,0.56,0.92,0.98,0.22,0.71,0.35,0.84
+EfficientNetAutoAttnB4ST,women,Asian (East),FFPP,0.6,0.56,0.75,0.9,0.3,0.69,0.43,0.75
+EfficientNetAutoAttnB4ST,women,Asian (South),FFPP,0.68,0.62,0.91,0.96,0.4,0.75,0.56,0.83
+EfficientNetAutoAttnB4ST,women,Caucasian (American),FFPP,0.66,0.6,0.9,0.96,0.36,0.74,0.51,0.87
+EfficientNetAutoAttnB4ST,women,Caucasian (European),FFPP,0.67,0.6,0.95,0.98,0.36,0.75,0.52,0.89
+EfficientNetAutoAttnB4ST,men,African,DFDC,0.66,0.67,0.65,0.64,0.68,0.65,0.67,0.68
+EfficientNetAutoAttnB4ST,men,Asian (East),DFDC,0.63,0.64,0.62,0.6,0.65,0.62,0.63,0.71
+EfficientNetAutoAttnB4ST,men,Asian (South),DFDC,0.67,0.72,0.64,0.56,0.78,0.63,0.7,0.73
+EfficientNetAutoAttnB4ST,men,Caucasian (American),DFDC,0.61,0.65,0.59,0.48,0.74,0.55,0.65,0.73
+EfficientNetAutoAttnB4ST,men,Caucasian (European),DFDC,0.61,0.61,0.61,0.6,0.62,0.61,0.61,0.7
+EfficientNetAutoAttnB4ST,women,African,DFDC,0.64,0.59,0.77,0.88,0.4,0.71,0.53,0.67
+EfficientNetAutoAttnB4ST,women,Asian (East),DFDC,0.62,0.6,0.66,0.74,0.5,0.66,0.57,0.68
+EfficientNetAutoAttnB4ST,women,Asian (South),DFDC,0.6,0.56,0.73,0.88,0.32,0.69,0.44,0.63
+EfficientNetAutoAttnB4ST,women,Caucasian (American),DFDC,0.7,0.65,0.81,0.88,0.52,0.75,0.63,0.7
+EfficientNetAutoAttnB4ST,women,Caucasian (European),DFDC,0.6,0.57,0.71,0.86,0.34,0.68,0.46,0.65
+EfficientNetAutoAttnB4,men,African,FFPP,0.64,0.58,0.94,0.98,0.3,0.73,0.45,0.82
+EfficientNetAutoAttnB4,men,Asian (East),FFPP,0.68,0.62,0.81,0.9,0.45,0.74,0.58,0.82
+EfficientNetAutoAttnB4,men,Asian (South),FFPP,0.62,0.57,0.93,0.98,0.26,0.72,0.41,0.86
+EfficientNetAutoAttnB4,men,Caucasian (American),FFPP,0.61,0.56,0.87,0.96,0.26,0.71,0.4,0.89
+EfficientNetAutoAttnB4,men,Caucasian (European),FFPP,0.69,0.62,0.91,0.96,0.42,0.76,0.58,0.9
+EfficientNetAutoAttnB4,women,African,FFPP,0.63,0.58,0.93,0.98,0.28,0.73,0.43,0.82
+EfficientNetAutoAttnB4,women,Asian (East),FFPP,0.67,0.62,0.79,0.88,0.46,0.73,0.58,0.74
+EfficientNetAutoAttnB4,women,Asian (South),FFPP,0.65,0.61,0.74,0.84,0.46,0.71,0.57,0.82
+EfficientNetAutoAttnB4,women,Caucasian (American),FFPP,0.7,0.64,0.88,0.94,0.46,0.76,0.61,0.87
+EfficientNetAutoAttnB4,women,Caucasian (European),FFPP,0.71,0.64,0.89,0.94,0.48,0.76,0.62,0.87
+EfficientNetB4ST,men,African,DFDC,0.58,0.57,0.59,0.64,0.52,0.6,0.55,0.65
+EfficientNetB4ST,men,Asian (East),DFDC,0.69,0.71,0.67,0.64,0.73,0.67,0.7,0.75
+EfficientNetB4ST,men,Asian (South),DFDC,0.67,0.69,0.65,0.62,0.72,0.65,0.69,0.76
+EfficientNetB4ST,men,Caucasian (American),DFDC,0.64,0.63,0.65,0.66,0.62,0.65,0.63,0.7
+EfficientNetB4ST,men,Caucasian (European),DFDC,0.66,0.65,0.67,0.7,0.62,0.67,0.65,0.75
+EfficientNetB4ST,women,African,DFDC,0.63,0.59,0.71,0.82,0.44,0.69,0.54,0.68
+EfficientNetB4ST,women,Asian (East),DFDC,0.66,0.62,0.75,0.84,0.48,0.71,0.59,0.74
+EfficientNetB4ST,women,Asian (South),DFDC,0.57,0.55,0.63,0.8,0.34,0.65,0.44,0.64
+EfficientNetB4ST,women,Caucasian (American),DFDC,0.66,0.61,0.79,0.88,0.44,0.72,0.56,0.72
+EfficientNetB4ST,women,Caucasian (European),DFDC,0.52,0.51,0.55,0.82,0.22,0.63,0.31,0.65
+Xception,men,African,FFPP,0.59,0.55,0.85,0.96,0.22,0.7,0.35,0.75
+Xception,men,Asian (East),FFPP,0.64,0.59,0.81,0.92,0.35,0.72,0.49,0.81
+Xception,men,Asian (South),FFPP,0.73,0.66,0.93,0.96,0.5,0.78,0.65,0.84
+Xception,men,Caucasian (American),FFPP,0.62,0.57,0.83,0.94,0.3,0.71,0.44,0.83
+Xception,men,Caucasian (European),FFPP,0.69,0.63,0.83,0.9,0.48,0.74,0.61,0.85
+Xception,women,African,FFPP,0.63,0.58,0.81,0.92,0.34,0.71,0.48,0.76
+Xception,women,Asian (East),FFPP,0.63,0.59,0.74,0.86,0.4,0.7,0.52,0.74
+Xception,women,Asian (South),FFPP,0.74,0.69,0.82,0.86,0.62,0.77,0.7,0.79
+Xception,women,Caucasian (American),FFPP,0.69,0.62,0.95,0.98,0.4,0.76,0.56,0.83
+Xception,women,Caucasian (European),FFPP,0.63,0.58,0.88,0.96,0.3,0.72,0.45,0.81
+CrossEffViT,men,African,DFDC_FFPP,0.71,0.67,0.77,0.82,0.6,0.74,0.67,0.8
+CrossEffViT,men,Asian (East),DFDC_FFPP,0.79,0.74,0.87,0.9,0.67,0.81,0.76,0.88
+CrossEffViT,men,Asian (South),DFDC_FFPP,0.68,0.62,0.82,0.9,0.46,0.74,0.59,0.85
+CrossEffViT,men,Caucasian (American),DFDC_FFPP,0.65,0.6,0.8,0.9,0.4,0.72,0.53,0.83
+CrossEffViT,men,Caucasian (European),DFDC_FFPP,0.67,0.62,0.81,0.9,0.44,0.73,0.57,0.85
+CrossEffViT,women,African,DFDC_FFPP,0.74,0.68,0.88,0.92,0.56,0.78,0.68,0.9
+CrossEffViT,women,Asian (East),DFDC_FFPP,0.72,0.68,0.79,0.84,0.6,0.75,0.68,0.86
+CrossEffViT,women,Asian (South),DFDC_FFPP,0.79,0.73,0.89,0.92,0.66,0.81,0.76,0.89
+CrossEffViT,women,Caucasian (American),DFDC_FFPP,0.81,0.73,0.97,0.98,0.64,0.84,0.77,0.93
+CrossEffViT,women,Caucasian (European),DFDC_FFPP,0.72,0.65,0.89,0.94,0.5,0.77,0.64,0.91

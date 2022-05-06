@@ -1,0 +1,12 @@
+model,training_dataset,accuracy,precision_0,precision_1,recall_0,recall_1,f1_0,f1_1,auc-roc
+EfficientNetB4,DFDC,0.61,0.61,0.62,0.64,0.59,0.62,0.6,0.67
+EfficientNetB4,FFPP,0.68,0.62,0.85,0.92,0.44,0.74,0.58,0.84
+EfficientNetAutoAttnB4,DFDC,0.66,0.65,0.68,0.71,0.62,0.68,0.65,0.73
+EfficientNetB4ST,FFPP,0.69,0.63,0.84,0.91,0.46,0.74,0.59,0.81
+Xception,DFDC,0.62,0.58,0.75,0.88,0.35,0.7,0.48,0.71
+EfficientNetAutoAttnB4ST,FFPP,0.64,0.58,0.87,0.95,0.32,0.72,0.47,0.85
+EfficientNetAutoAttnB4ST,DFDC,0.63,0.62,0.66,0.71,0.56,0.66,0.6,0.68
+EfficientNetAutoAttnB4,FFPP,0.66,0.6,0.86,0.94,0.38,0.73,0.53,0.84
+EfficientNetB4ST,DFDC,0.63,0.6,0.66,0.74,0.51,0.67,0.58,0.69
+Xception,FFPP,0.66,0.6,0.84,0.93,0.39,0.73,0.53,0.79
+CrossEffViT,DFDC_FFPP,0.73,0.67,0.85,0.9,0.55,0.77,0.67,0.87

@@ -1,0 +1,56 @@
+model,ethnicity,training_dataset,accuracy,precision_0,precision_1,recall_0,recall_1,f1_0,f1_1,auc-roc
+EfficientNetB4,African,DFDC,0.79,1.0,0.68,0.62,1.0,0.77,0.81,0.99
+EfficientNetB4,Asian (East),DFDC,0.77,1.0,0.64,0.61,1.0,0.76,0.78,0.98
+EfficientNetB4,Asian (South),DFDC,0.78,0.9,0.71,0.62,0.93,0.73,0.81,0.92
+EfficientNetB4,Caucasian (American),DFDC,0.8,0.97,0.72,0.64,0.98,0.77,0.83,0.96
+EfficientNetB4,Caucasian (European),DFDC,0.84,0.97,0.76,0.7,0.98,0.81,0.86,0.97
+EfficientNetB4,African,FFPP,0.96,0.97,0.94,0.95,0.96,0.96,0.95,0.99
+EfficientNetB4,Asian (East),FFPP,0.94,0.99,0.87,0.9,0.99,0.94,0.93,1.0
+EfficientNetB4,Asian (South),FFPP,0.97,1.0,0.94,0.94,1.0,0.97,0.97,1.0
+EfficientNetB4,Caucasian (American),FFPP,0.95,0.99,0.91,0.91,0.99,0.95,0.95,0.99
+EfficientNetB4,Caucasian (European),FFPP,0.94,0.98,0.91,0.91,0.98,0.94,0.95,0.99
+EfficientNetAutoAttnB4,African,DFDC,0.84,1.0,0.73,0.7,1.0,0.82,0.85,0.99
+EfficientNetAutoAttnB4,Asian (East),DFDC,0.8,1.0,0.67,0.66,1.0,0.8,0.8,0.98
+EfficientNetAutoAttnB4,Asian (South),DFDC,0.82,0.91,0.76,0.7,0.93,0.79,0.83,0.94
+EfficientNetAutoAttnB4,Caucasian (American),DFDC,0.86,0.96,0.79,0.76,0.97,0.85,0.87,0.96
+EfficientNetAutoAttnB4,Caucasian (European),DFDC,0.86,0.99,0.79,0.74,0.99,0.85,0.88,0.97
+EfficientNetB4ST,African,FFPP,0.96,0.97,0.95,0.96,0.96,0.96,0.96,0.99
+EfficientNetB4ST,Asian (East),FFPP,0.9,0.99,0.81,0.84,0.99,0.91,0.89,1.0
+EfficientNetB4ST,Asian (South),FFPP,0.96,0.98,0.93,0.93,0.98,0.95,0.96,0.99
+EfficientNetB4ST,Caucasian (American),FFPP,0.95,0.99,0.91,0.91,0.99,0.95,0.95,1.0
+EfficientNetB4ST,Caucasian (European),FFPP,0.94,0.97,0.92,0.92,0.97,0.94,0.94,0.99
+Xception,African,DFDC,0.93,0.99,0.88,0.89,0.99,0.94,0.93,0.98
+Xception,Asian (East),DFDC,0.91,0.95,0.87,0.9,0.93,0.92,0.9,0.98
+Xception,Asian (South),DFDC,0.84,0.86,0.83,0.82,0.87,0.84,0.85,0.94
+Xception,Caucasian (American),DFDC,0.92,0.94,0.9,0.9,0.94,0.92,0.92,0.96
+Xception,Caucasian (European),DFDC,0.94,0.98,0.9,0.9,0.98,0.94,0.94,0.98
+EfficientNetAutoAttnB4ST,African,FFPP,0.95,0.93,0.97,0.98,0.91,0.96,0.94,1.0
+EfficientNetAutoAttnB4ST,Asian (East),FFPP,0.93,0.99,0.86,0.89,0.99,0.94,0.92,0.99
+EfficientNetAutoAttnB4ST,Asian (South),FFPP,0.94,0.9,0.98,0.98,0.89,0.94,0.93,0.99
+EfficientNetAutoAttnB4ST,Caucasian (American),FFPP,0.97,0.98,0.96,0.96,0.98,0.97,0.97,0.99
+EfficientNetAutoAttnB4ST,Caucasian (European),FFPP,0.96,0.98,0.95,0.95,0.98,0.96,0.96,1.0
+EfficientNetAutoAttnB4ST,African,DFDC,0.87,1.0,0.77,0.76,1.0,0.86,0.87,0.99
+EfficientNetAutoAttnB4ST,Asian (East),DFDC,0.8,0.99,0.68,0.67,0.99,0.8,0.8,0.95
+EfficientNetAutoAttnB4ST,Asian (South),DFDC,0.8,0.87,0.76,0.72,0.89,0.79,0.82,0.91
+EfficientNetAutoAttnB4ST,Caucasian (American),DFDC,0.81,0.93,0.73,0.68,0.95,0.79,0.83,0.96
+EfficientNetAutoAttnB4ST,Caucasian (European),DFDC,0.84,0.94,0.77,0.73,0.95,0.82,0.85,0.95
+EfficientNetAutoAttnB4,African,FFPP,0.96,0.95,0.97,0.98,0.94,0.97,0.96,0.99
+EfficientNetAutoAttnB4,Asian (East),FFPP,0.94,1.0,0.86,0.89,1.0,0.94,0.93,0.99
+EfficientNetAutoAttnB4,Asian (South),FFPP,0.92,0.92,0.91,0.91,0.92,0.91,0.92,0.99
+EfficientNetAutoAttnB4,Caucasian (American),FFPP,0.96,0.98,0.95,0.95,0.98,0.96,0.96,0.99
+EfficientNetAutoAttnB4,Caucasian (European),FFPP,0.95,0.96,0.95,0.95,0.96,0.95,0.95,0.99
+EfficientNetB4ST,African,DFDC,0.85,1.0,0.75,0.73,1.0,0.84,0.86,0.98
+EfficientNetB4ST,Asian (East),DFDC,0.84,0.97,0.72,0.74,0.97,0.84,0.83,0.97
+EfficientNetB4ST,Asian (South),DFDC,0.82,0.9,0.76,0.71,0.92,0.79,0.83,0.93
+EfficientNetB4ST,Caucasian (American),DFDC,0.86,0.95,0.79,0.77,0.96,0.85,0.87,0.94
+EfficientNetB4ST,Caucasian (European),DFDC,0.86,0.96,0.8,0.76,0.97,0.85,0.87,0.96
+Xception,African,FFPP,0.91,0.9,0.92,0.94,0.88,0.92,0.9,0.96
+Xception,Asian (East),FFPP,0.93,0.99,0.86,0.89,0.99,0.94,0.92,0.99
+Xception,Asian (South),FFPP,0.95,0.99,0.92,0.91,0.99,0.95,0.95,0.99
+Xception,Caucasian (American),FFPP,0.96,0.97,0.96,0.96,0.97,0.96,0.96,0.99
+Xception,Caucasian (European),FFPP,0.94,0.95,0.93,0.93,0.95,0.94,0.94,0.99
+CrossEffViT,African,DFDC_FFPP,0.93,1.0,0.86,0.87,1.0,0.93,0.93,1.0
+CrossEffViT,Asian (East),DFDC_FFPP,0.92,1.0,0.84,0.87,1.0,0.93,0.92,1.0
+CrossEffViT,Asian (South),DFDC_FFPP,0.94,0.98,0.92,0.91,0.98,0.94,0.95,0.99
+CrossEffViT,Caucasian (American),DFDC_FFPP,0.96,0.99,0.94,0.94,0.99,0.96,0.96,0.99
+CrossEffViT,Caucasian (European),DFDC_FFPP,0.96,1.0,0.92,0.92,1.0,0.96,0.96,1.0
