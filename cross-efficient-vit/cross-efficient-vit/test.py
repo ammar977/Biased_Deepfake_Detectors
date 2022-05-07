@@ -198,43 +198,26 @@ if __name__ == "__main__":
     videos = mgr.list()
 
     folders = []
-
     for vid in list_vids_path:
         paths.append(vid)
-
-
-    # # print(folders)
-    # Read faces
     with Pool(processes=cpu_count()-1) as p:
         with tqdm(total=len(paths)) as pbar:
             for v in p.imap_unordered(partial(read_frames, videos=videos),paths):
                 pbar.update()
 
     video_names = np.asarray([row[0] for row in videos])
-    # frames_vid = np.asarray([row[1] for row in videos])
-
-    # print(video_names)
-
     correct_test_labels = np.asarray([0 for row in videos])#[row[1] for row in videos])
-    # videos = np.asarray([row[0] for row in videos])
     preds = []
-
-
     bar = Bar('Predicting', max=len(videos))
     nbr_vids=30
     index_vids=0
     f = open('preds_temp_ammar.txt', 'w+')#OUTPUT_DIR + '/' + CURR_POP_ID + "_" + model_name + "_labels.csv", "w+")
-    #path,ethnicity,gender,label,source_id,filename,method
-
     f.write('video_name,pred'+'\n')
     for index, video in enumerate(videos):#videos):
         # if index_vids <nbr_vids:
         video_faces_preds = []
         video_name = video_names[index]
-        # print(video)
         faces_preds = []
-        # print(video[key])
-
         video_faces = video[1]#video[key]
         for i in range(0, len(video_faces), opt.batch_size):
             faces = video_faces[i:i+opt.batch_size]
@@ -243,14 +226,11 @@ if __name__ == "__main__":
                 continue
             faces = np.transpose(faces, (0, 3, 1, 2))
             faces = faces.cuda().float()
-            
             pred = model(faces)
-            
             scaled_pred = []
             for idx, p in enumerate(pred):
                 scaled_pred.append(torch.sigmoid(p))
-            faces_preds.extend(scaled_pred)
-            
+            faces_preds.extend(scaled_pred)  
         current_faces_pred = sum(faces_preds)/len(faces_preds)
         face_pred = current_faces_pred.cpu().detach().numpy()[0]
         video_faces_preds.append(face_pred)
@@ -267,30 +247,3 @@ if __name__ == "__main__":
         
     f.close()
     bar.finish()
-
-
-    #########################
-    #######  METRICS  #######
-    #########################
-
-    # loss_fn = torch.nn.BCEWithLogitsLoss()
-    # tensor_labels = torch.tensor([[float(label)] for label in correct_test_labels])
-    # tensor_preds = torch.tensor(preds)
-
-    # x = torch.randn(1)
-    # x_np = x.numpy()
-    # x_df = pd.DataFrame(x_np)
-    # x_df.to_csv('tmp.csv')
-
-    # loss = loss_fn(tensor_preds, tensor_labels).numpy()
-
-    # #accuracy = accuracy_score(np.asarray(preds).round(), correct_test_labels) # Classic way
-    # accuracy = accuracy_score(custom_round(np.asarray(preds)), correct_test_labels) # Custom way
-    # f1 = f1_score(correct_test_labels, custom_round(np.asarray(preds)))
-    # print(model_name, "Test Accuracy:", accuracy, "Loss:", loss, "F1", f1)
-    # save_roc_curves(correct_test_labels, preds, model_name, accuracy, loss, f1)
-    # try:
-    #     save_confusion_matrix(metrics.confusion_matrix(correct_test_labels,custom_round(np.asarray(preds))))
-    # except:
-    #     print('could not save conf mat')
-    print()
